@@ -8,7 +8,8 @@
  add apk curl
  add apk vim
  
- save and push to docker hub
+ docker buid -t 
+ add tag and push to docker hub
  docker pull jitinkumar2019/alpinejitin
  
  docker images
@@ -16,3 +17,17 @@
   cat /etc/os-release
   curl --version
   vim --version
+
+
+Troubleshooting
+- docker ps
+-docker logs
+- docker stats
+- docker exec
+- docker inspect
+
+-docker export/load
+-docker commit
+
+clean up
+-docker rmi
