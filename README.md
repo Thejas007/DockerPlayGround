@@ -21,9 +21,14 @@
 
 Troubleshooting
 - docker ps
+  docker ps -a
 -docker logs
+ docker logs -f mynginx1
+ 
 - docker stats
+
 - docker exec
+
 - docker inspect
 
 -docker export/load
